@@ -36,7 +36,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import RefreshIcon from "@mui/icons-material/Refresh"
 
 const contractABI = abi
-const contractAddress = "0x026c53fabD8Eaed19B5BA05efD70cf60F85Dc5B2"
+const contractAddress = "0x0325e03db2baA3EDDE0417876333B35e6d467D35"
 
 const theme = createTheme({
   palette: {
