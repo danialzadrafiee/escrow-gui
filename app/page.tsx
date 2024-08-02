@@ -34,7 +34,6 @@ import {
 import { abi } from "./abi"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import RefreshIcon from "@mui/icons-material/Refresh"
-import InfoIcon from "@mui/icons-material/Info"
 
 const contractABI = abi
 const contractAddress = "0x026c53fabD8Eaed19B5BA05efD70cf60F85Dc5B2"

@@ -38,6 +38,7 @@ interface EscrowStep {
 
 interface Escrow {
   id: number
+  steps: EscrowStep[]
   payer: string
   payee: string
   totalAmount: string
