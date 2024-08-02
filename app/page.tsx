@@ -89,10 +89,10 @@ function App() {
 
   useEffect(() => {
     const initWeb3 = async () => {
-      if (window.ethereum) {
-        const web3Instance = new Web3(window.ethereum)
+      if ((window as any).ethereum) {
+        const web3Instance = new Web3((window as any).ethereum)
         try {
-          await window.ethereum.request({ method: "eth_requestAccounts" })
+          await (window as any).ethereum.request({ method: "eth_requestAccounts" })
           const accounts = await web3Instance.eth.getAccounts()
           setAccount(accounts[0])
           setWeb3(web3Instance)
